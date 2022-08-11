@@ -1,0 +1,520 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+.container {
+  width: 88%;
+  margin: auto;
+}
+
+h1 {
+  color: #444b51;
+}
+
+h2 {
+  color: #444b51;
+}
+
+p {
+  color: #b5babd;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  background-image: url("../images/bg-header-mobile.png");
+  background-repeat: no-repeat;
+}
+
+header .clip-header {
+  margin-top: 124px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+header .clip-header h1 {
+  text-align: center;
+  margin-top: 64px;
+  font-size: 30px;
+}
+header .clip-header p {
+  width: 93%;
+  text-align: center;
+  margin-top: 20px;
+  line-height: 1.6;
+}
+header .download-btns {
+  margin: auto;
+  width: 94%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 48px;
+}
+header .download-btns .ios-btn {
+  height: 56px;
+  background-color: hsl(171deg, 66%, 44%);
+  color: #fff;
+  border: none;
+  width: 100%;
+  border-radius: 50px;
+  font-size: 18px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+header .download-btns .mac-btn {
+  height: 56px;
+  background-color: hsl(233deg, 100%, 69%);
+  color: #fff;
+  border: none;
+  width: 100%;
+  border-radius: 50px;
+  margin-top: 24px;
+  font-size: 18px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.sec-one {
+  margin-top: 160px;
+}
+.sec-one .one-desc h1 {
+  text-align: center;
+  margin-top: 64px;
+  font-size: 26px;
+}
+.sec-one .one-desc p {
+  width: 94%;
+  text-align: center;
+  margin-top: 20px;
+  line-height: 1.7;
+}
+.sec-one .spc-start {
+  margin: auto;
+  margin-top: 50px;
+}
+.sec-one .spc-start .mac-screen img {
+  width: 310px;
+}
+.sec-one .spc-start .specification {
+  text-align: center;
+  margin-top: 46px;
+}
+.sec-one .spc-start .specification .spc {
+  margin-top: 40px;
+  font-size: 16px;
+}
+.sec-one .spc-start .specification .spc h2 {
+  font-weight: 600;
+}
+.sec-one .spc-start .specification .spc p {
+  margin-top: 14px;
+}
+
+.sec-two {
+  margin-top: 90px;
+}
+.sec-two .access-feat {
+  text-align: center;
+}
+.sec-two .access-feat h1 {
+  text-align: center;
+  margin-top: 64px;
+  font-size: 26px;
+}
+.sec-two .access-feat p {
+  text-align: center;
+  margin-top: 20px;
+  line-height: 1.7;
+  width: 94%;
+}
+.sec-two .access-img img {
+  width: 100%;
+  margin: auto;
+  margin-top: 54px;
+}
+
+.sec-three h1 {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 26px;
+}
+.sec-three p {
+  text-align: center;
+  margin-top: 14px;
+  line-height: 1.7;
+}
+.sec-three .properties {
+  text-align: center;
+  margin-top: 84px;
+}
+.sec-three .properties .icon {
+  margin-bottom: 38px;
+}
+.sec-three .properties .text {
+  margin-top: 54px;
+}
+.sec-three .properties .preview {
+  margin-top: 54px;
+}
+.sec-three .companies {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 70%;
+  margin: auto;
+  margin-top: 112px;
+}
+.sec-three .companies .google,
+.sec-three .companies .ibm,
+.sec-three .companies .microsoft,
+.sec-three .companies .hp,
+.sec-three .companies .vector {
+  width: 60%;
+  margin-top: 62px;
+}
+
+.sec-four {
+  margin-top: 100px;
+}
+.sec-four .clip-for h1 {
+  text-align: center;
+  margin-top: 64px;
+  font-size: 26px;
+}
+.sec-four .clip-for p {
+  text-align: center;
+  margin-top: 20px;
+  line-height: 1.7;
+  width: 92%;
+}
+.sec-four .download-btns {
+  margin: auto;
+  width: 94%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 63px;
+}
+.sec-four .download-btns .ios-btn {
+  height: 56px;
+  background-color: hsl(171deg, 66%, 44%);
+  color: #fff;
+  border: none;
+  width: 100%;
+  border-radius: 50px;
+  font-size: 18px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.sec-four .download-btns .mac-btn {
+  height: 56px;
+  background-color: hsl(233deg, 100%, 69%);
+  color: #fff;
+  border: none;
+  width: 100%;
+  border-radius: 50px;
+  margin-top: 24px;
+  font-size: 18px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.footer {
+  margin-top: 170px;
+  padding-top: 52px;
+  background-color: #f5f6f8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.footer .f-logo img {
+  margin: auto;
+  width: 54px;
+}
+.footer .f-ul ul {
+  text-align: center;
+  margin: auto;
+  margin-top: 18px;
+}
+.footer .f-ul ul li {
+  list-style: none;
+  color: #444b51;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 28px;
+}
+.footer .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 24px;
+  margin-top: 40px;
+}
+.footer .social .fa-twitter {
+  margin: 40px 60px;
+}
+.footer .social .face, .footer .social .twitter, .footer .social .insta {
+  cursor: pointer;
+}
+.footer .social .face:hover, .footer .social .twitter:hover, .footer .social .insta:hover {
+  color: hsl(171deg, 66%, 44%);
+}
+
+@media (min-width: 768px) {
+  body {
+    background-image: url("../images/bg-header-desktop.png");
+  }
+
+  header .clip-header h1 {
+    font-size: 34px;
+  }
+  header .clip-header p {
+    width: 46%;
+  }
+  header .download-btns {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  header .download-btns .ios-btn {
+    width: 22%;
+    margin-right: 10px;
+  }
+  header .download-btns .mac-btn {
+    width: 22%;
+    margin-top: 0px;
+    margin-left: 10px;
+  }
+
+  .sec-one .one-desc h1 {
+    font-size: 34px;
+  }
+  .sec-one .one-desc p {
+    width: 46%;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .sec-one .spc-start {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .sec-one .spc-start .mac-screen img {
+    width: 100%;
+    margin-left: -112px;
+  }
+  .sec-one .spc-start .specification {
+    text-align: left;
+  }
+  .sec-one .spc-start .specification .spc p {
+    margin-left: 0;
+    text-align: left;
+    width: 57%;
+  }
+
+  .sec-two {
+    margin-top: 160px;
+  }
+  .sec-two .access-feat h1 {
+    font-size: 34px;
+  }
+  .sec-two .access-feat p {
+    width: 46%;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .sec-two .access-img {
+    text-align: center;
+  }
+  .sec-two .access-img img {
+    width: 75%;
+  }
+
+  .sec-three h1 {
+    font-size: 34px;
+  }
+  .sec-three p {
+    width: 46%;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .sec-three .properties {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .sec-three .properties .prop {
+    width: 50%;
+  }
+  .sec-three .properties .text,
+.sec-three .properties .preview {
+    margin-top: -36px;
+  }
+  .sec-three .properties .blacklist p {
+    width: 80%;
+  }
+  .sec-three .properties .text p {
+    width: 80%;
+  }
+  .sec-three .properties .preview p {
+    width: 80%;
+  }
+  .sec-three .companies {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    text-align: center;
+  }
+  .sec-four .clip-for h1 {
+    font-size: 34px;
+  }
+  .sec-four .clip-for p {
+    width: 46%;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .sec-four .download-btns {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .sec-four .download-btns .ios-btn {
+    width: 22%;
+    margin-right: 10px;
+  }
+  .sec-four .download-btns .mac-btn {
+    width: 22%;
+    margin-top: 0px;
+    margin-left: 10px;
+  }
+
+  .footer {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .footer .f-ul ul {
+    max-width: 400px;
+    text-align: left;
+  }
+  .footer .f-ul ul li {
+    display: inline-block;
+    margin: 5px 20px;
+  }
+}
+@media (min-width: 1442px) {
+  body {
+    background-image: none;
+  }
+
+  header {
+    background-image: url("../images/bg-header-desktop.png");
+    background-size: cover;
+  }
+  header .clip-header {
+    margin-top: 0;
+    padding-top: 124px;
+  }
+
+  .sec-three .properties .text {
+    margin-top: -6px;
+  }
+  .sec-three .properties .preview {
+    margin-top: -34px;
+  }
+}
